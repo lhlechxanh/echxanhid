@@ -1,0 +1,594 @@
+.link{visibility:hidden}
+.navContainer {
+    width: 100%;
+    height: 50px;
+    background: white;
+    text-align: center;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+    line-height: 50px;
+}
+.link {
+    text-decoration: none;
+  }
+.navContainer .menu {
+    display: flex;
+    position: relative;
+}
+@keyframes zoom{0%{transform:scale(.5);opacity:0}50%{opacity:1}to{opacity:0;transform:scale(1)}}@keyframes lucidgenzalo{0% to{transform:rotate(-25deg)}50%{transform:rotate(25deg)}}.jscroll-to-top{bottom:100px}.fcta-zalo-ben-trong-nut svg path{fill:#fff}.fcta-zalo-vi-tri-nut{position:fixed;bottom:24px;right:20px;z-index:999}.fcta-zalo-nen-nut,div.fcta-zalo-mess{box-shadow:0 1px 6px rgba(0,0,0,.06),0 2px 32px rgba(0,0,0,.16)}.fcta-zalo-nen-nut{width:50px;height:50px;text-align:center;color:#fff;background:#0068ff;border-radius:50%;position:relative}.fcta-zalo-nen-nut::after,.fcta-zalo-nen-nut::before{content:"";position:absolute;border:1px solid #0068ff;background:#0068ff80;z-index:-1;left:-20px;right:-20px;top:-20px;bottom:-20px;border-radius:50%;animation:zoom 1.9s linear infinite}.fcta-zalo-nen-nut::after{animation-delay:.4s}.fcta-zalo-ben-trong-nut,.fcta-zalo-ben-trong-nut i{transition:all 1s}.fcta-zalo-ben-trong-nut{position:absolute;text-align:center;width:60%;height:60%;left:10px;bottom:25px;line-height:70px;font-size:25px;opacity:1}.fcta-zalo-ben-trong-nut i{animation:lucidgenzalo 1s linear infinite}.fcta-zalo-nen-nut:hover .fcta-zalo-ben-trong-nut,.fcta-zalo-text{opacity:0}.fcta-zalo-nen-nut:hover i{transform:scale(.5);transition:all .5s ease-in}.fcta-zalo-text a{text-decoration:none;color:#fff}.fcta-zalo-text{position:absolute;top:6px;text-transform:uppercase;font-size:12px;font-weight:700;transform:scaleX(-1);transition:all .5s;line-height:1.5}.fcta-zalo-nen-nut:hover .fcta-zalo-text{transform:scaleX(1);opacity:1}div.fcta-zalo-mess{position:fixed;bottom:29px;right:58px;z-index:99;background:#fff;padding:7px 25px 7px 15px;color:#0068ff;border-radius:50px 0 0 50px;font-weight:700;font-size:15px}.fcta-zalo-mess span{color:#0068ff!important}
+span#fcta-zalo-tracking{font-family:Roboto;line-height:1.5}.fcta-zalo-text{font-family:Roboto}
+.navContainer .menu li {
+    font-size: 30px;
+    flex: 1;
+    list-style-type: none;
+}
+
+.navContainer .menu li a {
+    color: #420420;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.navContainer .menu li:hover a {
+    color: gray;
+}
+
+.navContainer .menu li:first-child a {
+    color: gray;
+}
+/* line trang chủ
+.navContainer .menu .line {
+    position: absolute;
+    background-color: gray;
+    height: 5px;
+    width: 33.3%;
+    bottom: 0%;
+    left:0;
+    transition: all 0.3s ease
+}
+*/
+.navContainer .menu li:nth-child(2):hover ~ .line{
+    left: 33.3%;
+}
+
+.navContainer .menu li:nth-child(3):hover ~ .line{
+    left: 66.6%;
+}
+
+.jumbotron {
+    height: 175px;
+    color: white;
+    padding: 25px;
+
+    background: url(https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/313214556_1495635277616639_8098009930978157576_n.png?stp=dst-png_s960x960&_nc_cat=101&ccb=1-7&_nc_sid=52f669&_nc_ohc=uxE4ndOOY2MAX8i6Crr&_nc_ht=scontent.fhan15-1.fna&oh=00_AfCHZMMkiEz_CoFDQ-nhMe-94LyBOpv8vM2uP0-pIxtxww&oe=65032A95);
+}
+span {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron h2 a {
+    color: white;
+}
+
+.jumbotron h1 {
+    font-weight: 70;
+    font-size: 40px;
+    text-align: center;
+}
+
+.jumbotron h2 {
+    text-align: center;
+    font-size: 20px;
+}
+
+.cardsect {
+    /* max-width: 1200px; */
+    margin: 0 auto;
+}
+
+.cardsect h1{
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.cardlist {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    /* margin: 0;
+    padding: 0; */
+}
+
+.cardelement {
+    display: flex;
+    padding: 16px;
+}
+
+@media (min-width: 100px) {
+    .cardelement{
+        width: 100%;
+    }
+}
+
+@media (min-width: 650px) {
+    .cardelement{
+        width: 50%;
+
+    }
+}
+
+@media (min-width: 1000px) {
+    .cardelement{
+        width: 25%;
+    }
+}
+
+.cardelement .card {
+    display: flex;
+    box-shadow: 0 20px  40px rgba(0,0,0,0.25);
+}
+
+.cardsect img{
+    max-width: 100%;
+    height: 100%;
+}
+
+.cardsect .btn{
+    padding: 14px;
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 500;
+    border: 1px solid grey;
+}
+
+.cardcontent{
+    padding: 16px;
+    background: blue;
+}
+
+.cardtext {
+    font-size: 14px;
+    margin-bottom: 18px;
+    font-weight: 400;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: lightgray;
+    width: 100%;
+    bottom:0;
+}
+
+.content{
+    margin:35px;
+}
+
+.content h3{
+    margin: 10px;
+    color: gray;
+    text-decoration: underline;
+}
+
+.recents h6{
+    text-align: center;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: lightgray;
+}
+$color-background: #E7DFDD
+$color-border: #514E51
+$color-body: #EBA764
+$color-mouth: #FD7667
+$color-belly: #F1C28F
+$color-tail: #C48344
+
+body
+  background-color: $color-background
+
+blockquote
+  position: absolute
+  right: 0
+  bottom: 0
+  font-weight: 300
+  font-size: 15px
+  color: gray
+  
+  a
+    color: gray
+  
+.loading-cat
+  position: relative
+  width: 300px
+  height: 300px
+  margin: 48px auto
+
+.cat-body
+  position: absolute
+  width: 290px
+  height: 290px
+  background-color: $color-body
+  border-radius: 50%
+  border: 5px solid $color-border
+   
+  &:before
+    content: ''
+    position: absolute
+    top: calc(50% - 188px/2 - 5px)
+    left: calc(50% - 188px/2 - 5px)
+    width: 188px
+    height: 188px
+    border: 5px solid $color-border
+    border-radius: 50%
+    background-color: $color-background
+  
+  &:after
+    content: ''
+    position: absolute
+    top: calc(50% - 222px/2 - 22px)
+    left: calc(50% - 222px/2 - 22px)
+    width: 222px
+    height: 222px
+    border: 22px solid $color-belly
+    border-radius: 50%
+
+.cat-animation-mask
+  position: absolute
+  width: 50%
+  height: 50%
+  background-color: $color-background
+  transform-origin: right bottom
+  
+  &:before
+    content: ''
+    position: absolute
+    left: 100%
+    width: 100%
+    height: 100%
+    background-color: $color-background
+    transform-origin: left bottom
+ 
+  &:after
+    content: ''
+    position: absolute
+    top: 100%
+    width: 100%
+    height: 100%
+    background-color: $color-background
+    transform-origin: right top
+
+.cat-head
+  position: absolute
+  right: 0
+  top: 0
+  width: 50%
+  height: 50%
+  background-color: $color-background
+  transform-origin: left bottom
+  
+  .cat-face
+    position: absolute
+    bottom: 0px
+    right: 0
+    width: 50px
+    height: 40px
+    background-color: $color-body
+    border: 5px solid $color-border
+    border-bottom: 0
+    
+    &:before
+      content: ''
+      position: absolute
+      left: calc(50% - 10px)
+      bottom: -15px
+      width: 22px
+      height: 22px
+      background-color: $color-belly
+      border-radius: 50%
+  
+  .cat-ear
+    position: absolute
+    bottom: 39px
+    right: 0
+    width: 10px
+    height: 12px
+    background-color: $color-body
+    border: 5px solid $color-border
+    border-bottom: 0
+    border-radius: 20px 0 0 0
+    
+    &:before
+      content: ''
+      position: absolute
+      top: -5px
+      left: -45px
+      width: 10px
+      height: 12px
+      background-color: $color-body
+      border: 5px solid $color-border
+      border-bottom: 0
+      border-radius: 0 20px 0 0
+   
+  .cat-hand
+    position: absolute
+    bottom: -32px
+    right: 0
+    width: 10px
+    height: 30px
+    background-color: $color-body
+    border: 5px solid $color-border
+    border-top: 0
+    border-radius: 0 0 10px 10px
+    
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      left: -45px
+      width: 10px
+      height: 30px
+      background-color: $color-body
+      border: 5px solid $color-border
+      border-top: 0
+      border-radius: 0 0 10px 10px
+   
+  .cat-eye, .cat-eye-light
+    position: absolute
+    top: 116px
+    right: 12px
+    width: 6px
+    height: 6px
+    background-color: $color-border
+    border-radius: 3px
+    
+    &:before
+      content: ''
+      position: absolute
+      top: 0px
+      right: 30px
+      width: 6px
+      height: 6px
+      background-color: $color-border
+      border-radius: 3px
+    
+  .cat-eye-light
+    background-color: white
+    box-shadow: 0 0 10px white
+    opacity: 0
+    animation: eye-light-animation 2.5s 1s infinite 
+    
+    &:before
+      background-color: white
+      box-shadow: 0 0 10px white
+      opacity: 0
+      animation: eye-light-animation 2.5s 1s infinite 
+    
+  .cat-mouth
+    position: absolute
+    bottom: 16px
+    right: 27px
+    width: 2px
+    height: 0px
+    background-color: $color-mouth
+    border: 2px solid $color-border
+    border-top: 0
+    border-radius: 0 0 10px 10px
+    animation: mouth-animation 2.5s 1s infinite 
+     
+    &:before
+      content: ''
+      position: absolute
+      top: 0
+      right: -4px
+      width: 2px
+      height: 2px
+      background-color: $color-body
+      border: 2px solid $color-border
+      border-top: 0
+      border-radius: 0 0 10px 10px
+     
+    &:after
+      content: ''
+      position: absolute
+      top: 0
+      right: 0px
+      width: 2px
+      height: 2px
+      background-color: $color-body
+      border: 2px solid $color-border
+      border-top: 0
+      border-radius: 0 0 10px 10px
+   
+  .cat-beard
+    position: absolute
+    bottom: 18px
+    right: -4px
+    width: 12px
+    height: 3px
+    background-color: $color-border
+    
+    &:before
+      content: ''
+      position: absolute
+      top: -5px
+      right: 0
+      width: 12px
+      height: 3px
+      background-color: $color-border
+      transform: rotate(-10deg)
+     
+    &:after
+      content: ''
+      position: absolute
+      top: 5px
+      right: 0
+      width: 12px
+      height: 3px
+      background-color: $color-border
+      transform: rotate(10deg)
+     
+    &.right
+      right: 52px
+      
+      &:before
+        transform: rotate(10deg)
+      
+      &:after
+        transform: rotate(-10deg)
+     
+.cat-foot
+  position: absolute
+  left: 0
+  bottom: 0
+  width: 50%
+  height: 50%
+  background-color: $color-background
+  transform-origin: right top
+  
+  .cat-belly
+    position: absolute
+    bottom: 0
+    right: 0
+    width: 14px
+    height: 46px
+    background-color: $color-body
+    border: 5px solid $color-border
+    border-left: 0
+    border-right: 0
+
+  .cat-leg
+    position: absolute
+    bottom: 0px
+    right: 14px
+    width: 30px
+    height: 10px
+    background-color: $color-body
+    border: 5px solid $color-border
+    border-right: 0
+    border-radius: 10px 0 0 10px
+
+    &:before
+      content: ''
+      position: absolute
+      top: -41px
+      right: 0
+      width: 30px
+      height: 10px
+      background-color: $color-body
+      border: 5px solid $color-border
+      border-right: 0
+      border-radius: 10px 0 0 10px
+    
+  .cat-tail
+    position: absolute
+    bottom: 16px
+    right: 14px
+    width: 50px
+    height: 14px
+    background-color: $color-tail
+    border: 5px solid $color-border
+    border-right: 0
+    border-radius: 14px 0 0 14px
+    
+    &:after
+      content: ''
+      position: absolute
+      right: -28px
+      bottom: -4px
+      width: 22px
+      height: 22px
+      background-color: $color-belly
+      border-radius: 50%
+      
+    &:before
+      content: ''
+      position: absolute
+      bottom: -7px
+      right: 0
+      width: 10px
+      height: 18px
+      background-color: $color-body
+      border: 5px solid $color-border
+      border-right: 0
+      border-radius: 12px 0 0 12px
+      
+.cat-animation-mask
+  transform: rotate(45deg)
+  animation: mask-animation 2.5s 1s infinite 
+  
+  &:before
+    animation: mask-animation-sub-right 2.5s 1s infinite
+  
+  &:after
+    animation: mask-animation-sub-left 2.5s 1s infinite
+  
+.cat-head
+  transform: rotate(70deg)
+  animation: head-animation 2.5s 1s infinite
+  animation-timing-function: cubic-bezier(.2,0,.09,1)
+
+.cat-foot
+  transform: rotate(25deg)
+  animation: foot-animation 2.5s 1s infinite
+  animation-timing-function: cubic-bezier(.2,0,.45,1)
+  
+@keyframes mask-animation
+  0%
+    transform: rotate(45deg)
+  100%
+    transform: rotate(-675deg)
+
+@keyframes mask-animation-sub-left
+  0%
+    transform: rotate(0deg)
+  50%
+    transform: rotate(90deg)
+  100%
+    transform: rotate(0deg)
+  
+@keyframes mask-animation-sub-right
+  0%
+    transform: rotate(0deg)
+  50%
+    transform: rotate(-90deg)
+  100%
+    transform: rotate(0deg)
+
+@keyframes head-animation
+  0%
+    transform: rotate(70deg)
+  100%
+    transform: rotate(-650deg)
+
+@keyframes foot-animation
+  0%
+    transform: rotate(25deg)
+  100%
+    transform: rotate(-695deg)
+
+@keyframes eye-light-animation
+  0%
+    opacity: 0
+    height: 6px
+  50%
+    opacity: .75
+    height: 50px
+  80%
+    opacity: 1
+    height: 6px
+  100%
+    opacity: 0
+
+@keyframes mouth-animation
+  0%
+    height: 0px
+  50%
+    height: 10px
+  100%
+    height: 0px

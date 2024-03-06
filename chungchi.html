@@ -1,0 +1,234 @@
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#185886">
+    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <link href="https://namlee.net/wp-content/themes/namleedotnet/assets/images/favicon/favicon.png" rel="icon">
+    <title>Hướng dẫn sử dụng ESign cơ bản</title>
+<style id='wpdiscuz-frontend-css-inline-css' type='text/css'>
+
+.article-content {
+    border-radius: 4px;
+    background-color: #fff;
+    word-wrap: break-word;
+    padding: 20px;
+}
+      .container {
+    max-width: 720px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    background-color: rgb(246,246,246);
+    color: #555;
+    font-family: Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 18px;
+    line-height: 24px;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+    </style>
+<div class="entry-content u-text-format u-clearfix">
+  <p>
+    <strong>
+      <a href="https://namlee.net/tag/esign/" class="st_tag internal_tag" rel="tag" title="ESign">ESign</a>
+    </strong> là một ứng dụng giúp bạn sign (ký) iPA bằng chứng chỉ để cài đặt lên thiết bị như iPhone/iPad/iPod. Bài viết này sẽ hướng dẫn các bạn mới sử dụng <a href="https://namlee.net/tag/esign/" class="st_tag internal_tag" rel="tag" title="ESign">ESign</a> một cách cơ bản nhất.
+  </p>
+  <h2>Bước 1: Cài đặt ESign.</h2>
+  <p>Có rất nhiều cách để cài đặt ESign, tuy nhiên bài viết này sẽ không đề cập đến vấn đề này mà chỉ hướng dẫn cách sử dụng mà thôi.</p>
+  <div id="bvlq">
+    <ul></ul>
+  </div>
+  <p>Nếu bạn đang dùng iOS 16, sau khi cài đặt Esign: <b> Vào Cài đặt -&gt; Quyền riêng tư &amp; Bảo mật -&gt; Chế độ Nhà phát triển -&gt; bật lên.</b>
+  </p>
+  <h2></h2>
+  <h2>Bước 2: Import (nhập) chứng chỉ.</h2>
+  <p>Để import chứng chỉ thì bạn cần phải có file chứng chỉ (mua hoặc miễn phí trên mạng), file chứng chỉ sẽ bao gồm:</p>
+  <ul>
+    <li>File p12.</li>
+    <li>File mobileprovision.</li>
+    <li>Mật khẩu của file p12.</li>
+  </ul>
+  <p>Thông thường, file chứng chỉ sẽ được nén ở định dạng zip để thuận tiện cho việc chia sẻ và tải về máy.</p>
+  <p>
+    <em>Lưu ý: Bài viết này mình sẽ demo 1 file ZIP chứng chỉ là Cert.zip, tùy vào từng người bán hoặc chia sẻ sẽ có tên file khác nhau ví dụ như abc.zip, xyz.zip….</em>
+  </p>
+  <p>2.1: Sau khi đã tải file ZIP cert (chứng chỉ) về máy, tiến hành mở app ESign và chọn tab <strong>File</strong> -&gt; Bấm vào <strong>dấu 3 chấm</strong> ở góc phải -&gt; Chọn <strong>Nhập</strong> và tìm đến file <strong>Cert.zip</strong> vừa tải về để import file Cert.zip vào ESign. </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3507 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3507" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>2.2: Bấm vào file Cert.zip và chọn <strong>Giải nén</strong>, sau đó bấm vào thư mục mà bạn vừa giải nén cho đến khi nhìn thấy 2 file <strong>p12</strong> và <strong>mobileprovision</strong>. </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-1.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3508 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-1.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-1.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3508" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-1.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-1.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-1-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-1-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>2.3: Bấm vào file <strong>p12</strong> và chọn <strong>Nhập kho chứng chỉ</strong>&nbsp;(tùy vào người bán hoặc người chia sẻ mà tên file họ đặt sẽ khác nhau tuy nhiên đều là p12 cả). </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-2.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3509 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-2.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-2.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3509" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-2.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-2.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-2-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-2-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>2.4: Nhập <strong>pass (mật khẩu)</strong> đã được chủ cert cung cấp và bấm vào <strong>OK</strong>. </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-3.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3510 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-3.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-3.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3510" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-3.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-3.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-3-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-3-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>2.5: Tiếp theo, bấm vào file <strong>mobileprovision</strong> và chọn <strong>Nhập</strong>. </p>
+  <p>Như vậy là quá trình import cert đã xong. Bạn có thể kiểm tra bằng cách mở app <strong>ESign -&gt; Cài đặt -&gt; Quản lý chứng chỉ</strong> để xem đã nhập đúng chứng chỉ hay chưa. </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-4.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3511 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-4.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-4.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3511" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-4.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-4.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-4-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-4-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <h2>Bước 3: Sign (ký) iPA.</h2>
+  <p>
+    <em>Lưu ý: iPADL.ipa là file iPA demo mình hướng dẫn cho các bạn hiểu về cách sign.</em>
+  </p>
+  <p>3.1: Đầu tiên cũng cần phải tải iPA về máy, sau đó mở app ESign, chọn tab <strong>File</strong> -&gt; Bấm vào <strong>dấu 3 chấm</strong> ở góc phải -&gt; Chọn <strong>Nhập</strong> và tìm đến file iPA vừa tải về để import file iPA vào ESign. </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-5.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3512 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-5.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-5.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3512" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-5.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-5.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-5-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-5-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>3.2: Bấm vào file iPA và chọn <strong>Nhập vào thư viện</strong>. </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-6.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3513 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-6.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-6.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3513" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-6.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-6.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-6-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-6-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>3.3: Chọn qua tab <strong>Apps</strong> để xem danh sách các app trong thư viện. </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-7.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3514 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-7.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-7.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3514" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-7.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-7.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-7-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-7-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>3.4: Bấm vào app bạn cần sign và chọn <strong>Ký</strong>. </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-8.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3515 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-8.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-8.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3515" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-8.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-8.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-8-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-8-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>3.5: Một số cài đặt cơ bản</p>
+  <p>– Tên App: chính là tên hiển thị ở màn hình chính.</p>
+  <p>– Bundle Định danh: Nếu bạn muốn cài song song với app gốc (tải từ App Store) thì bạn đổi chỗ <strong>Bundle Định danh </strong>bằng cách <strong> thêm 1 số bất kỳ vào cuối cùng</strong> để nó khác với Bundle Định danh của app gốc. Một số app nếu đổi <strong>Bundle Định danh</strong> sẽ không hoạt động tất cả chức năng ví dụ đăng nhập, xuất file… <br> – Ở tùy chọn <strong>Cài đặt sau khi ký</strong> bạn có thể bật hoặc tắt tùy bạn, nếu bật thì sau khi sign xong sẽ có thông báo Cài đặt. <br> – Chọn đúng chứng chỉ bạn vừa nhập (mua) và bấm vào <strong>Chữ Ký</strong>. <br> – Nếu bạn muốn nâng cao hơn các tùy chọn có thể bấm vào <strong>Cài đặt khác</strong> (tự vọc). </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-9.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3516 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-9.jpeg" alt="" width="1184" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-9.jpeg" sizes="(max-width: 1184px) 100vw, 1184px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3516" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-9.jpeg" alt="" width="1184" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-9.jpeg 1184w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-9-768x1328.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-9-888x1536.jpeg 888w" sizes="(max-width: 1184px) 100vw, 1184px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>3.6: Đây là thông báo sẽ hiện lên khi bật tùy chọn <strong>Cài đặt sau khi ký</strong> và bạn chỉ cần bấm vào <strong>Cài đặt</strong> để tiến hành cài đặt ứng dụng. </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-10.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3517 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-10.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-10.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3517" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-10.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-10.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-10-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-10-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <h2>Bước 4: Hướng dẫn fix lỗi cài đặt app sau khi sign trên iOS 16.</h2>
+  <p>Bước này iOS 16 cần phải làm vì máy chủ cài đặt mặc định là github sẽ không thể cài đặt app khi dùng iOS 16.</p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-11.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3518 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-11.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-11.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3518" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-11.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-11.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-11-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-11-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-12.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3519 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-12.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-12.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3519" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-12.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-12.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-12-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-12-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-13.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3520 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-13.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-13.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3520" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-13.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-13.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-13-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-13-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>
+    <a href="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-14.jpeg" data-fancybox="images">
+      <img class="aligncenter size-full wp-image-3521 lazyloaded" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-14.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-14.jpeg" sizes="(max-width: 1152px) 100vw, 1152px">
+      <noscript>
+        <img class="aligncenter size-full wp-image-3521" src="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-14.jpeg" alt="" width="1152" height="2048" srcset="https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-14.jpeg 1152w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-14-768x1365.jpeg 768w, https://namlee.net/wp-content/uploads/2022/12/huong-dan-su-dung-esign-co-ban-14-864x1536.jpeg 864w" sizes="(max-width: 1152px) 100vw, 1152px" />
+      </noscript>
+    </a>
+  </p>
+  <p>&nbsp;</p>
+  <p>Chúc các bạn thành công.</p>
+</div>

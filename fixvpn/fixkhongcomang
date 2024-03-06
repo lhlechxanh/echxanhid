@@ -1,0 +1,38 @@
+<div class="ant-drawer-body"><div class="custom-html-style"><h2>1. Đã bật VPN và không truy cập được internet</h2>
+<hr width="100%" align="center">
+<ul>
+<li>
+<p><strong>Bật tắt máy bay</strong> và thử lại</p>
+</li>
+<li>
+<p>Cài đặt app sử dụng VPN chưa chính xác, hãy <strong>xem hướng dẫn và cài đặt lại app</strong></p>
+</li>
+<li>
+<p>Hãy chắc chắn bạn đã <strong>cập nhật thời gian thực tế</strong> hiện tại</p>
+</li>
+<li>
+<p>Ngoài vùng phủ sóng, hãy <strong>kiểm tra xem sim đã có sóng</strong> hay chưa, trước khi bật VPN hãy thử xem Wi-fi có internet hay chưa.</p>
+</li>
+<li>
+<p><strong>Reset thiết bị</strong></p>
+</li>
+<li>
+<p>Do gói dịch vụ bạn đang sử dụng đã hết hạn, hết lưu lượng truy cập, bị die… hãy <strong>sử dụng gói VPN khác và thử lại</strong></p>
+</li>
+</ul>
+<h2>2. Tắt VPN và không truy cập được internet</h2>
+<hr width="100%" align="center">
+<p>Hay gặp khi sử dụng v2rayNG và Clash For Windows trên thiết bị PC, quý khách cần chú ý bước <strong>Dừng sử dụng</strong> vì nếu app sử dụng cấu hình Proxy lúc sử dụng, tắt máy đột ngột mà không dừng sử dụng thì sẽ gặp lỗi
+<strong>↳Tắt tùy chỉnh Proxy</strong> đi là sẽ truy cập Internet trở lại, hãy tra google “Turn off proxy + phiên bản Windows” của quý khách.</p>
+<h2>3. Lỗi không dùng được ZALO trên Android</h2>
+<hr width="100%" align="center">
+<ul>
+<li>Bước 1: Vào <strong>Cài đặt</strong> của app v2rayNG</li>
+</ul>
+<p><img src="https://i.ibb.co/CzKp4zg/BF1953-E7-5-C6-A-466-D-AFAF-B5-ED09210-A4-D.jpg" width="300"></p>
+<p><img src="https://i.ibb.co/mSkhQjy/0-AD84034-DA52-4-FDA-9-C23-BA77-EF57-DB5-A.jpg" width="300"></p>
+<ul>
+<li>Bước 2: Quý khách <strong>Tắt</strong> mục <em><strong>Bật tính năng phát hiện luồng</strong></em></li>
+</ul>
+<p><img src="https://i.ibb.co/rpwpZYQ/FF66253-F-6053-400-A-B5-C2-DE758123-A7-E6.jpg" width="300"></p>
+</div></div>
